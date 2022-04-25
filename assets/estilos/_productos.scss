@@ -72,27 +72,20 @@
 
 /* ----- PRODUCTO LEFT ------ */
 .contenedor-producto-left{
-	display: flex;
+	@extend .contenedor-producto-right;
 	flex-direction: row-reverse;
-	width:90%;
-	height:400px;
 	margin-left: auto;		
 }
 
 .titulo-producto-left{
-	font-size:2em;
-	color:$color_titulos;
-	font-weight: lighter;
+	@extend .titulo-producto;
 	text-align: right;
 }
 
-.descripcion-producto-left{
-	width: 100%;
-	margin-top: 50px;
-	line-height: 25px;
-	text-align: right;
-	font-size: 1em;	
-}
+.descripcion-producto-left {
+ 	@extend .descripcion-producto;
+ 	text-align: right;
+ }
 	
 .btn{
 	padding: 8px 40px;

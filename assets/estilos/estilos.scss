@@ -4,9 +4,15 @@
 	margin: 0;
 }
 
+@mixin medidas_contenedor($ancho, $alto){
+	width:$ancho;
+	height:$alto;
+}
+
 $color_titulos: #036CA2;
 $color_btn: #57BEE8;
 $hover_btn: #036CA2;
+
 
 
 @import "estructura_grid.scss";

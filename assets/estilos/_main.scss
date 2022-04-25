@@ -19,8 +19,7 @@
 }
 
 .contenedor-marcas{
-	width:80%;
-	height: auto;
+	@include medidas_contenedor(80%, auto);
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -28,8 +27,7 @@
 }
 
 .marcas{
-	width:250px;
-	height: auto;
+	@include medidas_contenedor(250px, auto);
 	margin-bottom: 50px;
 }
 
@@ -38,7 +36,6 @@
 	border-radius: 10%;
 	filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
 	transition: ease all 1s;
-
 	&:hover{
 	opacity: 0.9;
 	cursor: pointer;
@@ -54,8 +51,7 @@
 }
 
 .contenedor-populares{
-	width:80%;
-	height:auto;
+	@include medidas_contenedor(80%, auto);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -67,23 +63,19 @@
 	max-height: 430px;
 	cursor:pointer;
 	transition: all ease 1.2s;
-
 	&:hover{
 		transform: scale(1.05,1.05);
 	}
 }
 
 .card-body{
-	
-
 	.card-text{
 		height :90px;
 	}
 }
 
 .img-producto{
-	width: 95%;
-	height: 200px;
+	@include medidas_contenedor(95%,200px);
 	transition: 1s ease all;
 
 	&:hover{

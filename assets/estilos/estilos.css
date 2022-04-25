@@ -169,7 +169,7 @@ header {
 }
 
 /*--------- PRODUCTO RIGHT ---------*/
-.contenedor-producto-right {
+.contenedor-producto-right, .contenedor-producto-left {
   width: 90%;
   height: 400px;
   margin-bottom: 100px;
@@ -195,14 +195,14 @@ header {
   padding: 15px 30px;
 }
 
-.titulo-producto {
+.titulo-producto, .titulo-producto-left {
   font-size: 2em;
   color: #036CA2;
   font-weight: lighter;
   text-align: left;
 }
 
-.descripcion-producto {
+.descripcion-producto, .descripcion-producto-left {
   width: 100%;
   margin-top: 50px;
   line-height: 25px;
@@ -218,26 +218,16 @@ header {
 
 /* ----- PRODUCTO LEFT ------ */
 .contenedor-producto-left {
-  display: flex;
   flex-direction: row-reverse;
-  width: 90%;
-  height: 400px;
   margin-left: auto;
 }
 
 .titulo-producto-left {
-  font-size: 2em;
-  color: #036CA2;
-  font-weight: lighter;
   text-align: right;
 }
 
 .descripcion-producto-left {
-  width: 100%;
-  margin-top: 50px;
-  line-height: 25px;
   text-align: right;
-  font-size: 1em;
 }
 
 .btn {
@@ -362,24 +352,10 @@ footer {
   font-size: 0.8em;
 }
 
-.fa-facebook-f {
+.fa-facebook-f, .fa-whatsapp, .fa-instagram {
   transition: 1s ease all;
 }
-.fa-facebook-f:hover {
-  transform: scale(1.1, 1.1);
-}
-
-.fa-instagram {
-  transition: 1s ease all;
-}
-.fa-instagram:hover {
-  transform: scale(1.1, 1.1);
-}
-
-.fa-whatsapp {
-  transition: 1s ease all;
-}
-.fa-whatsapp:hover {
+.fa-facebook-f:hover, .fa-whatsapp:hover, .fa-instagram:hover {
   transform: scale(1.1, 1.1);
 }
 
@@ -453,7 +429,7 @@ footer {
     margin-right: 8px;
   }
 
-  .contenedor-producto-right {
+  .contenedor-producto-right, .contenedor-producto-left {
     flex-direction: column;
     width: 100%;
     height: auto;
@@ -520,7 +496,7 @@ footer {
   }
 }
 @media screen and (max-width: 480px) {
-  .contenedor-producto-right {
+  .contenedor-producto-right, .contenedor-producto-left {
     width: 100%;
   }
 
@@ -528,7 +504,7 @@ footer {
     width: 100%;
   }
 
-  .descripcion-producto {
+  .descripcion-producto, .descripcion-producto-left {
     width: 100%;
   }
 

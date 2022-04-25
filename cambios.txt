@@ -1,0 +1,11 @@
+se creo un extend desde la clase .contenedor-producto-right para reutilizar codigo en la clase 
+.contenedor-producto-left
+
+se creo un extend desde la clase .titulo-producto para eutilizar codigo en la clase 
+.titulo-producto-left
+
+se creo un extend desde la clase .descripcion-producto para eutilizar codigo en la clase 
+.descripcion-producto-left
+
+se creo un extend desde la clase .fa-facebook-f para eutilizar codigo en las clases
+.fa-instagram y .fa-whatsapp

@@ -24,3 +24,14 @@ $hover_btn: #036CA2;
 @import "footer.scss";
 @import "mediaqueryes.scss";
 
+$redes:(
+	facebook: #3b5998,
+	whatsapp: #25D366,
+	instagram: #E1306C,
+);
+
+@each $nombre, $color in $redes{
+	.boton-#{$nombre}{
+	background: $color;
+	}
+}

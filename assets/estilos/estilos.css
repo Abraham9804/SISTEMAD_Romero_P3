@@ -354,9 +354,24 @@ footer {
 
 .fa-facebook-f, .fa-whatsapp, .fa-instagram {
   transition: 1s ease all;
+  padding: 5px 5px;
+  border-radius: 10%;
 }
 .fa-facebook-f:hover, .fa-whatsapp:hover, .fa-instagram:hover {
   transform: scale(1.1, 1.1);
+}
+
+/* mapa color redes */
+.boton-facebook {
+  background: #3b5998;
+}
+
+.boton-whatsapp {
+  background: #25D366;
+}
+
+.boton-instagram {
+  background: #E1306C;
 }
 
 /* ------ MEDIA QUERIES --------*/
@@ -511,6 +526,17 @@ footer {
   .titulo-marcas {
     padding: 10px 20px;
   }
+}
+.boton-facebook {
+  background: #3b5998;
+}
+
+.boton-whatsapp {
+  background: #25D366;
+}
+
+.boton-instagram {
+  background: #E1306C;
 }
 
 /*# sourceMappingURL=estilos.css.map */

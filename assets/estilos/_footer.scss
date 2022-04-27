@@ -37,9 +37,12 @@ footer{
 
 .fa-facebook-f{
 	transition: 1s ease all;
+	padding:5px 5px;
+	border-radius: 10%;
 	&:hover{
 		transform: scale(1.1,1.1);
 	}
+
 }
 
 .fa-instagram{
@@ -48,4 +51,19 @@ footer{
 
 .fa-whatsapp{
 	@extend .fa-facebook-f;
+}
+
+
+
+/* mapa color redes */
+$redes:(
+	facebook: #3b5998,
+	whatsapp: #25D366,
+	instagram: #E1306C,
+);
+
+@each $nombre, $color in $redes{
+	.boton-#{$nombre}{
+	background: $color;
+	}
 }

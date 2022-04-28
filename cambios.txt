@@ -1,18 +1,18 @@
 /*----- En el archivo _productos.scss se hicieron los siguientes cambios: -----*/ 
-se creo un extend desde la clase .contenedor-producto-right para reutilizar codigo en la clase 
-.contenedor-producto-left
+se creo un extend en la clase .contenedor-producto-left para reutilizar codigo de la clase 
+.contenedor-producto-right
 
-se creo un extend desde la clase .titulo-producto para reutilizar codigo en la clase 
-.titulo-producto-left
+se creo un extend en la clase .titulo-producto-left para reutilizar codigo de la clase .titulo-producto
 
-se creo un extend desde la clase .descripcion-producto para eutilizar codigo en la clase 
-.descripcion-producto-left
+se creo un extend en la clase .descripcion-producto-left para reutilizar codigo de la clase 
+.descripcion-producto
+
 
 
 
 /*----- En el archivo _footer.scss se hicieron los siguientes cambios: -----*/ 
-se creo un extend desde la clase .fa-facebook-f para eutilizar codigo en las clases
-.fa-instagram y .fa-whatsapp
+se creo un extend en las clases .fa-instagram y .fa-whatsapp para eutilizar codigo de la clase .fa-facebook-f
+
 
 
 
@@ -24,6 +24,10 @@ _main.scss
 .marcas
 .contenedor-marcas
 
+Tambien se creo el mapa $display_flex y se aplicaron las variables a la etiqueta header del archivo 
+_header.scss mediante map-get
+
+
 
 
 /*----- En el archivo _footer.scss se hicieron los siguientes cambios: -----*/ 
@@ -34,3 +38,6 @@ Se creó el map $redes para aplicar colores de background a los iconos con las s
 
 
 
+/*------- SEO --------*/
+Se agregaron meta description y meta keywords a todos los archivos html, tambien se verifico que cada 
+archivo html contenda un titulo h1

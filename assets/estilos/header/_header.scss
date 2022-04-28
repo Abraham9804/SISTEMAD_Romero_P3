@@ -1,8 +1,8 @@
 /*ESTILOS DEL HEADER*/
 header {
 	grid-area: header;
-	display: map-get($flex, propiedad);
-	flex-direction: map-get($flex, direccionc);
+	display: map-get($display_flex, propiedad);
+	flex-direction: map-get($display_flex, direccionc);
 	overflow: hidden;
 }
 

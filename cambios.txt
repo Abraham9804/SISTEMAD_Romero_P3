@@ -1,20 +1,36 @@
+/*----- En el archivo _productos.scss se hicieron los siguientes cambios: -----*/ 
 se creo un extend desde la clase .contenedor-producto-right para reutilizar codigo en la clase 
 .contenedor-producto-left
 
-se creo un extend desde la clase .titulo-producto para eutilizar codigo en la clase 
+se creo un extend desde la clase .titulo-producto para reutilizar codigo en la clase 
 .titulo-producto-left
 
 se creo un extend desde la clase .descripcion-producto para eutilizar codigo en la clase 
 .descripcion-producto-left
 
+
+
+/*----- En el archivo _footer.scss se hicieron los siguientes cambios: -----*/ 
 se creo un extend desde la clase .fa-facebook-f para eutilizar codigo en las clases
 .fa-instagram y .fa-whatsapp
 
-Se definio el mixin medidas_contenedor($ancho, $alto) y se aplico a las siguientes clases de la seccion 
-main del index:
+
+
+/*----- En el archivo estilos.scss se hicieron los siguientes cambios: -----*/ 
+Se definio el mixin medidas_contenedor($ancho, $alto) y se aplico a las siguientes clases del archivo 
+_main.scss
 .img-producto
 .contenedor-populares
 .marcas
 .contenedor-marcas
+
+
+
+/*----- En el archivo _footer.scss se hicieron los siguientes cambios: -----*/ 
+Se creó el map $redes para aplicar colores de background a los iconos con las siguientes clases
+.boton-facebook
+.boton-whatsapp
+.boton-instagram
+
 
 

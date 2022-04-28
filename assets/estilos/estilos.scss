@@ -9,29 +9,24 @@
 	height:$alto;
 }
 
+$flex:(
+	propiedad: flex,
+	direccionr:  row,
+	direccionc: column
+);
+
 $color_titulos: #036CA2;
 $color_btn: #57BEE8;
 $hover_btn: #036CA2;
 
 
 
-@import "estructura_grid.scss";
-@import "header.scss";
-@import "portada.scss";
-@import "main.scss";
-@import "productos.scss";
-@import "formulario.scss";
-@import "footer.scss";
-@import "mediaqueryes.scss";
+@import "grid/estructura_grid.scss";
+@import "header/header.scss";
+@import "portada/portada.scss";
+@import "main/main.scss";
+@import "productos/productos.scss";
+@import "formulario/formulario.scss";
+@import "footer/footer.scss";
+@import "mediaqueryes/mediaqueryes.scss";
 
-$redes:(
-	facebook: #3b5998,
-	whatsapp: #25D366,
-	instagram: #E1306C,
-);
-
-@each $nombre, $color in $redes{
-	.boton-#{$nombre}{
-	background: $color;
-	}
-}

@@ -54,7 +54,7 @@ header {
 /* ESTILOS DE LA SECCION CARRUSEL*/
 /*Alto de imagenes en carrusel*/
 .d-block {
-  max-height: 700px;
+  max-height: 620px;
   min-height: 170px;
 }
 
@@ -67,13 +67,14 @@ header {
 }
 
 /* CONTENIDO PRINCIPAL DEL INDEX*/
-.contenido-principal {
+.contenido-principal, .contenido-principal-contacto {
   grid-area: main;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin-bottom: 0;
+  margin-bottom: 150px;
+  margin-top: 100px;
 }
 
 .titulo-marcas {
@@ -154,8 +155,6 @@ header {
 /* ------ SECCION PRINCIPAL DE PRODUCTOS -------- */
 .seccion-principal {
   width: 80%;
-  margin-top: 100px;
-  margin-bottom: 200px;
   display: flex;
   flex-direction: column;
 }
@@ -163,7 +162,7 @@ header {
 .titulo-seccion {
   color: #036CA2;
   font-size: 2.5rem;
-  margin: 20px 0px 200px 0px;
+  margin: 20px 0px 150px 0px;
   font-weight: lighter;
   text-align: left;
 }
@@ -241,6 +240,14 @@ header {
 }
 
 /*-------- FORMULARIO ----------*/
+.contenido-principal-contacto {
+  margin-bottom: 0px;
+}
+
+.resaltado {
+  font-weight: bold;
+}
+
 .article-formulario {
   width: 80%;
   align-content: center;
@@ -251,6 +258,12 @@ header {
 }
 .article-formulario p {
   width: 90%;
+  line-height: 32px;
+}
+.article-formulario h3 {
+  color: #036CA2;
+  font-weight: lighter;
+  font-size: 1.5em;
 }
 
 .titulo-formulario {

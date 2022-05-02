@@ -1,4 +1,13 @@
 /*-------- FORMULARIO ----------*/
+.contenido-principal-contacto{
+	@extend .contenido-principal;
+	margin-bottom:0px;
+
+}
+
+.resaltado{
+	font-weight:bold;
+}
 .article-formulario{
 	width:80%;
 	align-content: center;
@@ -9,6 +18,13 @@
 
 	p {
 	width: 90%;
+	line-height:32px;
+	}
+
+	h3{
+	color:#036CA2;
+	font-weight: lighter;
+	font-size:1.5em;
 	}
 }
 

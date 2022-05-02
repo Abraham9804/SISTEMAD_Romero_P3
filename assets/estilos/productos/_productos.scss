@@ -2,8 +2,6 @@
 
 .seccion-principal{
 	width: 80%;
-	margin-top: 100px;
-	margin-bottom: 200px;
 	display: flex;
 	flex-direction: column;
 }
@@ -11,7 +9,7 @@
 .titulo-seccion{
 	color:$color_titulos;
 	font-size: 2.5rem;
-	margin:20px 0px 200px 0px;
+	margin:20px 0px 150px 0px;
 	font-weight: lighter;
 	text-align: left;
 }
